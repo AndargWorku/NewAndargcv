@@ -1,13 +1,16 @@
+import Photo from '@/components/Photo';
 import Socials from '@/components/Socials';
+import Stats from '@/components/Stats';
 import { Button } from '@/components/ui/button'
 import React from 'react'
 import { FiDownload } from "react-icons/fi";
+import Services from './services/page';
 const Home = () => {
   return (
    <section className=' h-full'>
     <div className="container mx-auto h-full">
       <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
-        <div className="text-center xl:text-left">
+        <div className="text-center xl:text-left order-2 xl:order-none">
           <span className=' text-xl'>Software Engineering</span>
           <h1 className='h1 '> Hello Im <br/> <span className=' text-accent'>Andarg Worku </span></h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolorem est quam labore, dicta aperiam ad laboriosam impedit enim ea eaque magnam recusandae ipsam numquam deserunt quisquam, itaque harum asperiores?</p>
@@ -29,11 +32,16 @@ const Home = () => {
 
         </div>
         </div>
-        <div>Photo</div>
+
+        <div className=' order-1 xl:order-none mb-8 xl:mb-0'>
+          <Photo/>
+        </div>
 
       </div>
 
     </div>
+    <Stats/>
+    <Services/>
 
    </section>
   )
