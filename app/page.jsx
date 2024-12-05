@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button'
 import React from 'react'
 import { FiDownload } from "react-icons/fi";
 import Services from './services/page';
+import Resume from './resume/page';
 const Home = () => {
   return (
    <section className=' h-full'>
@@ -42,6 +43,7 @@ const Home = () => {
     </div>
     <Stats/>
     <Services/>
+    <Resume/>
 
    </section>
   )
