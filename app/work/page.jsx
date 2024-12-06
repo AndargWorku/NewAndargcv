@@ -15,35 +15,333 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "frontend",
-    title: "Project 1",
-    description: "",
+    category: "Full stack website",
+    title: " Gebeya Website",
+    description: "that show is the real amazing moderen and complex e-commerce website that used to exchage goods in online platform across world",
     stack: [
-      { name: "Html 5" },
-      { name: "CSS 3" },
-      { name: "Javascript" },
-      { name: "React" },
-      { name: "Tailwind css" },
+      { name: "Tailwind ss" },
+      
+      { name: "Javacript" },
+      
+      {name:"react"},
+      {name:"node js"},
+      {name:"mongoDB"},
+      
+     
+      {name:"Redux Toolkit"},
+      {name:"stripe"}
+      
+    
+      
     ],
-    image: "/",
-    live: "",
-    github: "",
+    image: "/assets/work/gebeya.png",
+    live: "https://gebeya-p9r3.vercel.app/",
+    github: "https://github.com/AndargWorku/Gebeya",
   },
   {
     num: "02",
-    category: "frontend",
-    title: "Project 2",
-    description: "",
+    category: "Full stack website",
+    title: " Lyu Gebeya Website",
+    description: "that show is the real amazing moderen and complex e-commerce website that used to for markting of spically for gift things in online platform across world",
     stack: [
-      { name: "Html 5" },
-      { name: "CSS 3" },
-      { name: "Javascript" },
-      { name: "React" },
-      { name: "Tailwind css" },
+      { name: "Tailwind ss" },
+      
+      { name: "Javacript" },
+     
+      {name:"react"},
+      {name:"node js"},
+      {name:"mongoDB"},
+      
+      ,
+      {name:"Redux Toolkit"},
+      {name:"stripe"}
+      
+    
+      
     ],
     image: "/",
     live: "",
-    github: "",
+    github: "https://github.com/AndargWorku/Lyu-gebeya",
+  },
+  {
+    num: "03",
+    category: "Full stack website",
+    title: " A-Chat  Website",
+    description: "that show is the real amazing moderen and complex website that used to exhcange message by text or image or video ",
+    stack: [
+      { name: "Tailwind ss" },
+      
+      { name: "Javacript" },
+      
+      {name:"react"},
+      {name:"node js"},
+      {name:"mongoDB"},
+      
+     
+      {name:"Redux Toolkit"},
+      {name:"sockt.io"}
+      
+    
+      
+    ],
+    image: "/",
+    live: "",
+    github: "https://github.com/AndargWorku/A-chat",
+  },
+  {
+    num: "04",
+    category: "Frontend website",
+    title: " Furniture Website",
+    description: "that shows the sample of furniture products",
+    stack: [
+      { name: "reactstrap" },
+      { name: "CSS 3" },
+      { name: "Javascript" },
+      { name: "Html" },
+      {name:"react"},
+     
+      
+    ],
+    image: "/assets/work/furiture.png",
+    live: "https://furncomm.vercel.app/home",
+    github: "https://github.com/AndargWorku/furncomm",
+  },
+  {
+    num: "05",
+    category: "Frontend website",
+    title: " Car Rental Dashboard Website",
+    description: "that show the sample dashboard of car rental website",
+    stack: [
+      { name: "reactstrap" },
+      { name: "CSS 3" },
+      { name: "Javascript" },
+      
+      {name:"react"},
+      
+      {name:"Bootstrap"}
+      
+    ],
+    image: "/assets/work/car-dashboard.png",
+    live: "https://rent-dashboard.vercel.app/dashboard",
+    github: "https://github.com/AndargWorku/car-rent-dashboard",
+  },
+  {
+    num: "06",
+    category: "Frontend website",
+    title: " Car Rental Website",
+    description: "that show the different car used to transporting service for as rent",
+    stack: [
+      { name: "reactstrap" },
+      { name: "CSS 3" },
+      { name: "Javascript" },
+      
+      {name:"react"},
+      
+      {name:"Bootstrap"}
+      
+    ],
+    image: "/assets/work/car-rental.png",
+    live: "https://cars-three-psi.vercel.app/home",
+    github: "https://github.com/AndargWorku/cars",
+  },
+  {
+    num: "07",
+    category: "Frontend website",
+    title: " Resturant Website",
+    description: "that show  amazing  UI that display different type of foods ",
+    stack: [
+      { name: "reactstrap" },
+      { name: "CSS 3" },
+      { name: "Javascript" },
+      
+      {name:"react"},
+      
+      {name:"Bootstrap"}
+      
+    ],
+    image: "/assets/work/restruant.png",
+    live: "https://resturant-food.vercel.app/",
+    github: "https://github.com/AndargWorku/resturant-food",
+  },
+  {
+    num: "08",
+    category: "Frontend website",
+    title: " Nike shoes Website",
+    description: "that show the different model of nike shoes ",
+    stack: [
+      { name: "Tailwind css" },
+      { name: "CSS 3" },
+      { name: "Javascript" },
+      
+      {name:"react"},
+      
+      
+      
+    ],
+    image: "/assets/work/nike.png",
+    live: "https://nike-six-blush.vercel.app",
+    github: "https://github.com/AndargWorku/Nike",
+  },
+  {
+    num: "09",
+    category: "Full Stack Website",
+    title: "todo list website",
+    description: "A to-do list website designed to organize, track, and manage daily tasks efficiently with user-friendly CRUD functionality.",
+    stack: [
+      
+      { name: "Javascript" },
+      { name: "React" },
+      { name: "Bootstrap" },
+      { name: "node js" },
+      { name: "Mongoose" },
+    ],
+    image: "/assets/work/todo.jpeg",
+    live: "https://andargworku.github.io/todoApp/",
+    github: "https://github.com/AndargWorku/todoApp",
+  },
+  {
+    num: "10",
+    category: "frontend website",
+    title: "Learing managment system",
+    description: "",
+    stack: [
+      { name: "reactstrap" },
+      { name: "CSS 3" },
+      { name: "Javascript" },
+      { name: "React" },
+      
+    ],
+    image: "/assets/work/online.png",
+    live: "https://online-rsi3.vercel.app/",
+    github: "https://github.com/AndargWorku/online",
+  },
+  {
+    num: "11",
+    category: "frontend website",
+    title: " Universtiy of Ethiopia",
+    description: " List and show the lsite sample Ethiopian Universtiy",
+    stack: [
+      { name: "reactstrap" },
+      { name: "CSS 3" },
+      { name: "Javascript" },
+      { name: "Html" },
+      
+    ],
+    image: "/assets/work/universtiy.jpg",
+    live: "https://campus-six.vercel.app/",
+    github: "https://github.com/AndargWorku/campus",
+  },
+  {
+    num: "12",
+    category: "Full stack website",
+    title: " E-commerce Website",
+    description: "that used to buying and selling goods or used to exchange items",
+    stack: [
+      { name: "reactstrap" },
+      
+      { name: "Javascript" },
+      
+      {name:"react"},
+      {name:"node js"},
+      
+      {name:"mongoDB"},
+      {name:"Bootstrap"}
+      
+    ],
+    image: "/assets/work/e-commerce.jpg",
+    live: "https://wa-livid.vercel.app/Home",
+    github: "https://github.com/AndargWorku/wa",
+  },
+  
+  {
+    num: "13",
+    category: "Frontend website",
+    title: " E-commerce dashboard Website",
+    description: "that show the different amzing  modern UI",
+    stack: [
+      { name: "Chakra ui" },
+      { name: "CSS 3" },
+      { name: "Typescript" },
+      
+      {name:"react"},
+      
+    
+      
+    ],
+    image: "/assets/work/chakra-dash.png",
+    live: "https://dshboard-by-chakra.vercel.app",
+    github: "https://github.com/AndargWorku/dshboard-by-chakra",
+  },
+  {
+    num: "14",
+    category: "Frontend website",
+    title: " Signup  Website",
+    description: "that show the signup and login page in local storage",
+    stack: [
+      { name: "Redux toolkit" },
+      
+      { name: "Chakra ui" },
+     
+      { name: "Javascript" },
+      
+      {name:"react"},
+      
+    
+      
+    ],
+    image: "/assets/work/lo.png",
+    live: "https://login-chakra-sigma.vercel.app",
+    github: "https://github.com/AndargWorku/login-chakra",
+  },
+
+  {
+    num: "15",
+    category: "Full stack website",
+    title: " Book store  Website",
+    description: "that used to book store that perfrom CRUD funcation ",
+    stack: [
+      { name: "Tailwind ss" },
+      
+      { name: "Javacript" },
+      
+      {name:"react"},
+      {name:"node js"},
+      {name:"mongoDB"},
+      
+      {name:"Redux Toolkit"},
+      
+      
+    
+      
+    ],
+    image: "/assets/work/book-store.png",
+    live: "",
+    github: "https://github.com/AndargWorku/Book-store",
+  },
+  {
+    num: "16",
+    category: "Full stack website",
+    title: " Book Rent  Website",
+    description: "that used to book rent in online paltform  ",
+    stack: [
+      { name: "Tailwind ss" },
+      {name:"Javascript"},
+      
+      
+      {name:"react"},
+      {name:"node js"},
+      {name:"postgrass"},
+      
+      
+      {name:"Redux Toolkit"},
+      
+      
+    
+      
+    ],
+    image: "/assets/work/book-rental.png",
+    live: "https://book-rent-x75w.vercel.app/",
+    github: "https://github.com/AndargWorku/book-rent",
   },
   // Add more projects as needed
 ];
@@ -67,7 +365,7 @@ const Work = () => {
       className="min-h-[80vh] flex flex-col justify-center py-12 xl:px-0"
     >
       <div className="container mx-auto">
-        <div className="flex flex-col xl:flex-row xl:gap-[30px]">
+        <div className="flex flex-col gap-4 xl:flex-row xl:gap-[40px]">
           {/* Left Section */}
           <div className="w-full xl:w-[50%] xl:h-[460px] flex flex-col xl:justify-between order-2 xl:order-none">
             <div className="flex flex-col gap-[30px] h-[50%]">
@@ -76,6 +374,10 @@ const Work = () => {
               </div>
               <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">
                 {project.category} project
+              </h2>
+
+              <h2 className="text-[22px] font-semibold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">
+                {project.title} project
               </h2>
               <p className="text-white/60">{project.description}</p>
               <ul className="flex gap-4">
@@ -119,7 +421,7 @@ const Work = () => {
           </div>
 
           {/* Right Section */}
-          <div className="w-full xl:w-[50%]">
+          <div className="w-full xl:w-[50%] ">
             <Swiper
               spaceBetween={30}
               slidesPerView={1}
@@ -132,8 +434,8 @@ const Work = () => {
                     {/* Overlay */}
                     <div className="absolute top-0 bottom-0 w-full h-full bg-black/10 z-10"></div>
                     {/* Image */}
-                    <div className="relative w-full h-full">
-                      <Image src={project.image} fill className="object-cover" alt="" />
+                    <div className="relative w-full h-full  ">
+                      <Image src={project.image} fill className="object-cover " alt="" />
                     </div>
                   </div>
                 </SwiperSlide>

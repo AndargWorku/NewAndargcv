@@ -38,7 +38,14 @@ import { motion } from "framer-motion";
 import { TbBrandReactNative } from "react-icons/tb";
 const about = {
   title: "About me",
-  description: "something",
+  description: "I am Andarg Work, a skilled, adaptable, and effective communicator in programming. If you require a developer, please feel free to reach out through the following options:"
+
+
+
+
+
+
+,
   info: [
     {
       fieldName: "Name",
@@ -53,13 +60,14 @@ const about = {
       fieldValue: "3+ Years",
     },
     {
-      fieldName: "Natinality",
-      fieldValue: "Ethiopian",
-    },
-    {
       fieldName: "Email",
       fieldValue: "andargworku8240@gmail.com ",
     },
+    {
+      fieldName: "Natinality",
+      fieldValue: "Ethiopian",
+    },
+    
     {
       fieldName: "Language",
       fieldValue: "English , Amharic",
@@ -73,7 +81,7 @@ const about = {
 const experience = {
   icon: "/",
   title: " My expriance",
-  description: "lots of thing",
+  description: "I have extensive experience as a frontend, backend, and full-stack developer. Let's see",
   items: [
     {
       company: "Frelance",
@@ -81,12 +89,12 @@ const experience = {
       duration: " present",
     },
     {
-      company: "Sheba Tech for Melly's fashion",
+      company: " At Sheba Tech for Melly's fashion",
       position: "Frontend Developer",
       duration: " 2023-2024",
     },
     {
-      company: "Ever Link Tech and Degital solution",
+      company: "At Ever Link Tech and Degital solution",
       position: "Full Stack Developer and Leactureer",
       duration: " 2022-2023",
     },
@@ -95,20 +103,20 @@ const experience = {
 const education = {
   icon: "/",
   title: " My education",
-  description: "lots of thing",
+  description: "I have expanded my knowledge through various methods, including the following:",
   items: [
     {
-      Institution: "online course platform",
+      Institution: "From online course platform",
       Degree: "Full stack Developer",
       duration: " 2022",
     },
     {
-      Institution: "udemy online course platform",
+      Institution: "From udemy online course ",
       Degree: "Mobile Development",
       duration: " 2024",
     },
     {
-      Institution: "Addis Ababa Science and Technogy Universtiy",
+      Institution: "From Addis Ababa Science and Technogy Universtiy",
       Degree: " BSc of Software Engineering",
       duration: " 2018-2022",
     },
@@ -116,12 +124,9 @@ const education = {
 };
 const skills = {
   title: " My Skills",
-  description: "lots of thing",
+  description: "I have acquired extensive skills over the years; here are the technologies I specialize in:",
   skillList: [
-    {
-      icon: <FaHtml5 />,
-      name: "html 5",
-    },
+   
     {
       icon: <FaReact />,
       name: "React",
@@ -130,10 +135,7 @@ const skills = {
       icon: <TbBrandReactNative />,
       name: "React Native",
     },
-    {
-      icon: <FaCss3 />,
-      name: "Css",
-    },
+   
     {
       icon: <SiTailwindcss />,
       name: "Tailwind css",

@@ -5,6 +5,7 @@ import { Textarea } from "@/components/ui/textarea"
 import { Select,SelectContent,SelectGroup,SelectItem,SelectLabel,SelectTrigger,SelectValue } from "@/components/ui/select"
 import {FaPhoneAlt, FaEnvelope, FaMapMarkerAlt} from "react-icons/fa"
 import {motion} from "framer-motion"
+import emailjs from '@emailjs/browser';
 const info=[
   {
     icon:<FaPhoneAlt/>,
@@ -26,6 +27,12 @@ const info=[
 
 
 const Contact = () => {
+  const sendEmail = (e) => {
+    e.preventDefault();
+ 
+    emailjs.sendForm('service_zrhxt3g', 'template_221ffco', form.current, '0MuITMuotm1mFEvv1')
+    e.target.reset()
+   };
   return (
     <motion.section
     initial={{ opacity: 0 }}
@@ -38,10 +45,10 @@ const Contact = () => {
       <div className=" container mx-auto">
         <div className=" flex flex-col xl:flex-row gap-[30px]">
           {/* form */}
-          <div className=" xl:w-[54%] order-2 xl:order-none">
-            <form className=" flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
+          <div className=" xl:w-[54%] order-2 xl:order-none" >
+            <form onSubmit={sendEmail} className=" flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
               <h3 className=" text-4xl text-accent">Let's Work together</h3>
-              <p className=" text-white/60">something</p>
+              <p className=" text-white/60">Kindly send any message.</p>
                <div className=" grid grid-cols-1 md:grid-cols-2 gap-6">
                 <Input type="fristname" placeholder="Fristname" />
                 <Input type="lastname" placeholder="Lastname" />
@@ -65,7 +72,7 @@ const Contact = () => {
              <Textarea
              className=" h-[200px]" placeholder=" Type your message here"/>
 
-           <Button size="md" className="max-w-40">Send Message</Button>
+           <Button size="md" type="submit" className="max-w-40">Send Message</Button>
             </form>
 
           </div>

@@ -1,4 +1,5 @@
 
+
 "use client";
 
 import React from "react";
@@ -23,29 +24,29 @@ const Photo = () => {
             opacity: 1,
             transition: { delay: 2.4, duration: 0.4, ease: "easeInOut" },
           }}
-          className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute"
+          className="w-[250px] h-[250px] xl:w-[300px] xl:h-[300px] mix-blend-lighten absolute "
         >
           <Image
-            src="/assets/photo.png" // Adjusted the path for better Next.js compatibility
+            src="/assets/photo.jpg" // Adjusted the path for better Next.js compatibility
             priority
             quality={100}
             fill
             alt="Decorative Photo"
-            className="object-contain"
+            className=" object-contain rounded-full"
           />
         </motion.div>
 
         {/* Circle animation */}
         <motion.svg
-          className="w-[388px] xl:w-[506px] h-[300px] xl:h-[506px]"
+          className="w-[388px] xl:w-[406px] h-[300px] xl:h-[406px]"
           fill="none"
           viewBox="0 0 506 506"
           xmlns="http://www.w3.org/2000/svg"
         >
           <motion.circle
-            cx="253"
-            cy="253"
-            r="250"
+            cx="205"
+            cy="205"
+            r="200"
             stroke="#00ff99"
             strokeWidth="4"
             strokeLinecap="round"
