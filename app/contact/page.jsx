@@ -6,6 +6,7 @@ import { Select,SelectContent,SelectGroup,SelectItem,SelectLabel,SelectTrigger,S
 import {FaPhoneAlt, FaEnvelope, FaMapMarkerAlt} from "react-icons/fa"
 import {motion} from "framer-motion"
 import emailjs from '@emailjs/browser';
+import { useRef } from "react"
 const info=[
   {
     icon:<FaPhoneAlt/>,
@@ -27,10 +28,11 @@ const info=[
 
 
 const Contact = () => {
+  const form=useRef();
   const sendEmail = (e) => {
     e.preventDefault();
  
-    emailjs.sendForm('service_zrhxt3g', 'template_221ffco', form.current, '0MuITMuotm1mFEvv1')
+    emailjs.sendForm('service_745utln', 'template_jbgaoct', form.current, 'Ibzy8Tb9v8YEDIdcF5Vel')
     e.target.reset()
    };
   return (
@@ -46,14 +48,14 @@ const Contact = () => {
         <div className=" flex flex-col xl:flex-row gap-[30px]">
           {/* form */}
           <div className=" xl:w-[54%] order-2 xl:order-none" >
-            <form onSubmit={sendEmail} className=" flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
+            <form ref={form} onSubmit={sendEmail} className=" flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
               <h3 className=" text-4xl text-accent">Let's Work together</h3>
               <p className=" text-white/60">Kindly send any message.</p>
                <div className=" grid grid-cols-1 md:grid-cols-2 gap-6">
-                <Input type="fristname" placeholder="Fristname" />
-                <Input type="lastname" placeholder="Lastname" />
-                <Input type="email" placeholder="Email Address" />
-                <Input type="phone" placeholder="phone Number" />
+                <Input type="fristname" name="fristname" placeholder="Fristname" />
+                <Input type="lastname" name="lastname" placeholder="Lastname" />
+                <Input type="email"name="email" placeholder="Email Address" />
+                <Input type="phone" name="phone" placeholder="phone Number" />
                </div>
              <Select>
               <SelectTrigger className="w-full">
@@ -61,7 +63,7 @@ const Contact = () => {
               </SelectTrigger>
               <SelectContent>
                 <SelectGroup>
-                  <SelectLabel>Select a service</SelectLabel>
+                  <SelectLabel name="select">Select a service</SelectLabel>
                   <SelectItem value="web">Web Developement</SelectItem>
                   <SelectItem value="back">Backend Developement</SelectItem>
                   <SelectItem value="full">Full Stack Developement</SelectItem>
@@ -69,7 +71,7 @@ const Contact = () => {
                 </SelectGroup>
               </SelectContent>
              </Select>
-             <Textarea
+             <Textarea name="message"
              className=" h-[200px]" placeholder=" Type your message here"/>
 
            <Button size="md" type="submit" className="max-w-40">Send Message</Button>
