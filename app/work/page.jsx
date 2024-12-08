@@ -74,7 +74,7 @@ const projects = [
       { name: "Redux Toolkit" },
       { name: "sockt.io" },
     ],
-    image: "/",
+    image: "/assets/work/chat.png",
     live: "",
     github: "https://github.com/AndargWorku/A-chat",
   },
