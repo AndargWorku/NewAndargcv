@@ -32,8 +32,8 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
  
-    // emailjs.sendForm('service_745utln', 'template_jbgaoct', form.current, 'Ibzy8Tb9v8YEDIdcF5Vel')
-    // e.target.reset()
+    emailjs.sendForm('service_745utln', 'template_jbgaoct', form.current, 'Ibzy8Tb9v8YEDIdcF5Vel')
+    e.target.reset()
    };
   return (
     <motion.section

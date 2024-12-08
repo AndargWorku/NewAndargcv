@@ -74,10 +74,10 @@ const Home = () => {
 
     </div>
     <Stats />
-    <Services/>
+    {/* <Services/>
     <Resume/>
     <Work/>
-    <Contact/>
+    <Contact/> */}
 
    </section>
   )
