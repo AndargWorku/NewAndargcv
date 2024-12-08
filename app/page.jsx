@@ -74,10 +74,7 @@ const Home = () => {
 
     </div>
     <Stats />
-    {/* <Services/>
-    <Resume/>
-    <Work/>
-    <Contact/> */}
+    
 
    </section>
   )

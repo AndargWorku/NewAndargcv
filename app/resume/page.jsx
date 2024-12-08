@@ -38,14 +38,9 @@ import { motion } from "framer-motion";
 import { TbBrandReactNative } from "react-icons/tb";
 const about = {
   title: "About me",
-  description: "I am Andarg Work, a skilled, adaptable, and effective communicator in programming. If you require a developer, please feel free to reach out through the following options:"
+  description:
+    "I am Andarg Work, a skilled, adaptable, and effective communicator in programming. If you require a developer, please feel free to reach out through the following options:",
 
-
-
-
-
-
-,
   info: [
     {
       fieldName: "Name",
@@ -67,7 +62,7 @@ const about = {
       fieldName: "Natinality",
       fieldValue: "Ethiopian",
     },
-    
+
     {
       fieldName: "Language",
       fieldValue: "English , Amharic",
@@ -81,7 +76,8 @@ const about = {
 const experience = {
   icon: "/",
   title: " My expriance",
-  description: "I have extensive experience as a frontend, backend, and full-stack developer. Let's see",
+  description:
+    "I have extensive experience as a frontend, backend, and full-stack developer. Let's see",
   items: [
     {
       company: "Frelance",
@@ -103,7 +99,8 @@ const experience = {
 const education = {
   icon: "/",
   title: " My education",
-  description: "I have expanded my knowledge through various methods, including the following:",
+  description:
+    "I have expanded my knowledge through various methods, including the following:",
   items: [
     {
       Institution: "From online course platform",
@@ -124,9 +121,9 @@ const education = {
 };
 const skills = {
   title: " My Skills",
-  description: "I have acquired extensive skills over the years; here are the technologies I specialize in:",
+  description:
+    "I have acquired extensive skills over the years; here are the technologies I specialize in:",
   skillList: [
-   
     {
       icon: <FaReact />,
       name: "React",
@@ -135,7 +132,7 @@ const skills = {
       icon: <TbBrandReactNative />,
       name: "React Native",
     },
-   
+
     {
       icon: <SiTailwindcss />,
       name: "Tailwind css",
@@ -266,7 +263,7 @@ const Resume = () => {
             </TabsContent>
 
             <TabsContent value="education" className="w-full">
-            <div className=" flex flex-col gap-[30px] text-center xl:text-left">
+              <div className=" flex flex-col gap-[30px] text-center xl:text-left">
                 <h3 className=" text-4xl font-bold">{education.title}</h3>
                 <p className=" max-w-[600px] text-white/60 mx-auto xl:mx-0">
                   {education.description}
@@ -300,59 +297,56 @@ const Resume = () => {
               <div className=" flex flex-col gap-[30px]">
                 <div className=" flex flex-col gap-[30px] text-center xl:text-left">
                   <h3 className=" text-4xl font-bold">{skills.title}</h3>
-                  <p className=" max-w-[600px] text-white/60 mx-auto xl:mx-0">{skills.description}</p>
-
+                  <p className=" max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                    {skills.description}
+                  </p>
                 </div>
                 <ul className=" grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4  gap-4 xl:gap-[30px]">
-
-                  {skills.skillList.map((skill,index)=>{
-                    return<li key={index}>
-                      <TooltipProvider delayDuration={100}>
-                        <Tooltip>
-                          <TooltipTrigger
-                          className=" w-full h-[150px] bg-[#232329] rounded-xl flex justify-center items-center group"
-                          >
-                            <div 
-                            className=" text-6xl group-hover:text-accent transition-all duration-300"
-                            >
-                              {skill.icon}</div>
-                          </TooltipTrigger>
-                          <TooltipContent>
-                            <p className=" capitalize">{skill.name}</p>
-                          </TooltipContent>
-                        </Tooltip>
-                      </TooltipProvider>
+                  {skills.skillList.map((skill, index) => {
+                    return (
+                      <li key={index}>
+                        <TooltipProvider delayDuration={100}>
+                          <Tooltip>
+                            <TooltipTrigger className=" w-full h-[150px] bg-[#232329] rounded-xl flex justify-center items-center group">
+                              <div className=" text-6xl group-hover:text-accent transition-all duration-300">
+                                {skill.icon}
+                              </div>
+                            </TooltipTrigger>
+                            <TooltipContent>
+                              <p className=" capitalize">{skill.name}</p>
+                            </TooltipContent>
+                          </Tooltip>
+                        </TooltipProvider>
                       </li>
+                    );
                   })}
                 </ul>
-
               </div>
-              
             </TabsContent>
 
             {/* for about */}
-            <TabsContent value="about" className="w-full text-center xl:text-left">
-
+            <TabsContent
+              value="about"
+              className="w-full text-center xl:text-left"
+            >
               <div className=" flex flex-col gap-[30px]">
                 <h3 className=" text-4xl font-bold">{about.title}</h3>
-                <p
-                className=" max-w-[600px] text-white/60 mx-auto xl:mx-0"
-                >
-                  {about.description}</p>
-                  <ul className=" grid grid-cols-1 xl:grid-cols-2 gap-y-6 max-w-[620px] mx-auto xl:mx-0">
-                    {about.info.map((item,index)=>{
-                      return(
-                        <li key={index}
-                        className=" flex items-center justify-center xl:justify-start gap-4">
-                          <span className=" text-white/60">{item.fieldName}</span>
-                          <span className=" text-xl">{item.fieldValue}</span>
-
-                        </li>
-                      )
-                    })}
-
-                  </ul>
-
+                <p className=" max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                  {about.description}
+                </p>
+                <ul className=" grid grid-cols-1 xl:grid-cols-2 gap-y-6 max-w-[620px] mx-auto xl:mx-0">
+                  {about.info.map((item, index) => {
+                    return (
+                      <li
+                        key={index}
+                        className=" flex items-center justify-center xl:justify-start gap-4"
+                      >
+                        <span className=" text-white/60">{item.fieldName}</span>
+                        <span className=" text-xl">{item.fieldValue}</span>
+                      </li>
+                    );
+                  })}
+                </ul>
               </div>
             </TabsContent>
           </div>
