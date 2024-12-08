@@ -1,11 +1,15 @@
-
 "use client";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { BsGithub, BsArrowUpRight } from "react-icons/bs";
-import { TooltipProvider, Tooltip, TooltipTrigger, TooltipContent } from "@/components/ui/tooltip";
+import {
+  TooltipProvider,
+  Tooltip,
+  TooltipTrigger,
+  TooltipContent,
+} from "@/components/ui/tooltip";
 
 import Link from "next/link";
 import Image from "next/image";
@@ -17,22 +21,17 @@ const projects = [
     num: "01",
     category: "Full stack website",
     title: " Gebeya Website",
-    description: "that show is the real amazing moderen and complex e-commerce website that used to exchage goods in online platform across world",
+    description:
+      "that show is the real amazing moderen and complex e-commerce website that used to exchage goods in online platform across world",
     stack: [
       { name: "Tailwind ss" },
-      
-      { name: "Javacript" },
-      
-      {name:"react"},
-      {name:"node js"},
-      {name:"mongoDB"},
-      
-     
-      {name:"Redux Toolkit"},
-      {name:"stripe"}
-      
-    
-      
+
+      { name: "react" },
+      { name: "node js" },
+      { name: "mongoDB" },
+
+      { name: "Redux Toolkit" },
+      { name: "stripe" },
     ],
     image: "/assets/work/gebeya.png",
     live: "https://gebeya-p9r3.vercel.app/",
@@ -42,24 +41,20 @@ const projects = [
     num: "02",
     category: "Full stack website",
     title: " Lyu Gebeya Website",
-    description: "that show is the real amazing moderen and complex e-commerce website that used to for markting of spically for gift things in online platform across world",
+    description:
+      "that show is the real amazing moderen and complex e-commerce website that used to for markting of spically for gift things in online platform across world",
     stack: [
       { name: "Tailwind ss" },
-      
-      { name: "Javacript" },
-     
-      {name:"react"},
-      {name:"node js"},
-      {name:"mongoDB"},
-      
+
+      { name: "react" },
+      { name: "node js" },
+      { name: "mongoDB" },
+
       ,
-      {name:"Redux Toolkit"},
-      {name:"stripe"}
-      
-    
-      
+      { name: "Redux Toolkit" },
+      { name: "stripe" },
     ],
-    image: "/",
+    image: "/assets/work/lyu.png",
     live: "",
     github: "https://github.com/AndargWorku/Lyu-gebeya",
   },
@@ -67,22 +62,17 @@ const projects = [
     num: "03",
     category: "Full stack website",
     title: " A-Chat  Website",
-    description: "that show is the real amazing moderen and complex website that used to exhcange message by text or image or video ",
+    description:
+      "that show is the real amazing moderen and complex website that used to exhcange message by text or image or video ",
     stack: [
       { name: "Tailwind ss" },
-      
-      { name: "Javacript" },
-      
-      {name:"react"},
-      {name:"node js"},
-      {name:"mongoDB"},
-      
-     
-      {name:"Redux Toolkit"},
-      {name:"sockt.io"}
-      
-    
-      
+
+      { name: "react" },
+      { name: "node js" },
+      { name: "mongoDB" },
+
+      { name: "Redux Toolkit" },
+      { name: "sockt.io" },
     ],
     image: "/",
     live: "",
@@ -93,15 +83,7 @@ const projects = [
     category: "Frontend website",
     title: " Furniture Website",
     description: "that shows the sample of furniture products",
-    stack: [
-      { name: "reactstrap" },
-      { name: "CSS 3" },
-      { name: "Javascript" },
-      { name: "Html" },
-      {name:"react"},
-     
-      
-    ],
+    stack: [{ name: "reactstrap" }, { name: "Javascript" }, { name: "react" }],
     image: "/assets/work/furiture.png",
     live: "https://furncomm.vercel.app/home",
     github: "https://github.com/AndargWorku/furncomm",
@@ -113,13 +95,12 @@ const projects = [
     description: "that show the sample dashboard of car rental website",
     stack: [
       { name: "reactstrap" },
-      { name: "CSS 3" },
+
       { name: "Javascript" },
-      
-      {name:"react"},
-      
-      {name:"Bootstrap"}
-      
+
+      { name: "react" },
+
+      { name: "Bootstrap" },
     ],
     image: "/assets/work/car-dashboard.png",
     live: "https://rent-dashboard.vercel.app/dashboard",
@@ -129,16 +110,16 @@ const projects = [
     num: "06",
     category: "Frontend website",
     title: " Car Rental Website",
-    description: "that show the different car used to transporting service for as rent",
+    description:
+      "that show the different car used to transporting service for as rent",
     stack: [
       { name: "reactstrap" },
-      { name: "CSS 3" },
+
       { name: "Javascript" },
-      
-      {name:"react"},
-      
-      {name:"Bootstrap"}
-      
+
+      { name: "react" },
+
+      { name: "Bootstrap" },
     ],
     image: "/assets/work/car-rental.png",
     live: "https://cars-three-psi.vercel.app/home",
@@ -149,16 +130,7 @@ const projects = [
     category: "Frontend website",
     title: " Resturant Website",
     description: "that show  amazing  UI that display different type of foods ",
-    stack: [
-      { name: "reactstrap" },
-      { name: "CSS 3" },
-      { name: "Javascript" },
-      
-      {name:"react"},
-      
-      {name:"Bootstrap"}
-      
-    ],
+    stack: [{ name: "Javascript" }, { name: "react" }, { name: "Bootstrap" }],
     image: "/assets/work/restruant.png",
     live: "https://resturant-food.vercel.app/",
     github: "https://github.com/AndargWorku/resturant-food",
@@ -170,53 +142,28 @@ const projects = [
     description: "that show the different model of nike shoes ",
     stack: [
       { name: "Tailwind css" },
-      { name: "CSS 3" },
+
       { name: "Javascript" },
-      
-      {name:"react"},
-      
-      
-      
+
+      { name: "react" },
     ],
     image: "/assets/work/nike.png",
     live: "https://nike-six-blush.vercel.app",
     github: "https://github.com/AndargWorku/Nike",
   },
+  
   {
     num: "09",
-    category: "Full Stack Website",
-    title: "todo list website",
-    description: "A to-do list website designed to organize, track, and manage daily tasks efficiently with user-friendly CRUD functionality.",
-    stack: [
-      
-      { name: "Javascript" },
-      { name: "React" },
-      { name: "Bootstrap" },
-      { name: "node js" },
-      { name: "Mongoose" },
-    ],
-    image: "/assets/work/todo.jpeg",
-    live: "https://andargworku.github.io/todoApp/",
-    github: "https://github.com/AndargWorku/todoApp",
-  },
-  {
-    num: "10",
     category: "frontend website",
     title: "Learing managment system",
     description: "",
-    stack: [
-      { name: "reactstrap" },
-      { name: "CSS 3" },
-      { name: "Javascript" },
-      { name: "React" },
-      
-    ],
+    stack: [{ name: "Javascript" }, { name: "React" }, { name: "bootstrap" }],
     image: "/assets/work/online.png",
     live: "https://online-rsi3.vercel.app/",
     github: "https://github.com/AndargWorku/online",
   },
   {
-    num: "11",
+    num: "10",
     category: "frontend website",
     title: " Universtiy of Ethiopia",
     description: " List and show the lsite sample Ethiopian Universtiy",
@@ -225,69 +172,52 @@ const projects = [
       { name: "CSS 3" },
       { name: "Javascript" },
       { name: "Html" },
-      
     ],
     image: "/assets/work/universtiy.jpg",
     live: "https://campus-six.vercel.app/",
     github: "https://github.com/AndargWorku/campus",
   },
   {
-    num: "12",
+    num: "11",
     category: "Full stack website",
     title: " E-commerce Website",
-    description: "that used to buying and selling goods or used to exchange items",
+    description:
+      "that used to buying and selling goods or used to exchange items",
     stack: [
-      { name: "reactstrap" },
-      
-      { name: "Javascript" },
-      
-      {name:"react"},
-      {name:"node js"},
-      
-      {name:"mongoDB"},
-      {name:"Bootstrap"}
-      
+      { name: "react" },
+      { name: "node js" },
+
+      { name: "mongoDB" },
+      { name: "Bootstrap" },
     ],
     image: "/assets/work/e-commerce.jpg",
     live: "https://wa-livid.vercel.app/Home",
     github: "https://github.com/AndargWorku/wa",
   },
-  
+
   {
-    num: "13",
+    num: "12",
     category: "Frontend website",
     title: " E-commerce dashboard Website",
     description: "that show the different amzing  modern UI",
-    stack: [
-      { name: "Chakra ui" },
-      { name: "CSS 3" },
-      { name: "Typescript" },
-      
-      {name:"react"},
-      
-    
-      
-    ],
+    stack: [{ name: "Chakra ui" }, { name: "Typescript" }, { name: "react" }],
     image: "/assets/work/chakra-dash.png",
     live: "https://dshboard-by-chakra.vercel.app",
     github: "https://github.com/AndargWorku/dshboard-by-chakra",
   },
   {
-    num: "14",
+    num: "13",
     category: "Frontend website",
     title: " Signup  Website",
     description: "that show the signup and login page in local storage",
     stack: [
       { name: "Redux toolkit" },
-      
+
       { name: "Chakra ui" },
-     
+
       { name: "Javascript" },
-      
-      {name:"react"},
-      
-    
-      
+
+      { name: "react" },
     ],
     image: "/assets/work/lo.png",
     live: "https://login-chakra-sigma.vercel.app",
@@ -295,51 +225,38 @@ const projects = [
   },
 
   {
-    num: "15",
+    num: "14",
     category: "Full stack website",
     title: " Book store  Website",
     description: "that used to book store that perfrom CRUD funcation ",
     stack: [
       { name: "Tailwind ss" },
-      
-      { name: "Javacript" },
-      
-      {name:"react"},
-      {name:"node js"},
-      {name:"mongoDB"},
-      
-      {name:"Redux Toolkit"},
-      
-      
-    
-      
+
+      { name: "react" },
+      { name: "node js" },
+      { name: "mongoDB" },
+
+      { name: "Redux Toolkit" },
     ],
     image: "/assets/work/book-store.png",
     live: "",
     github: "https://github.com/AndargWorku/Book-store",
   },
   {
-    num: "16",
+    num: "15",
     category: "Full stack website",
     title: " Book Rent  Website",
     description: "that used to book rent in online paltform  ",
     stack: [
       { name: "Tailwind ss" },
-      {name:"Javascript"},
-      
-      
-      {name:"react"},
-      {name:"node js"},
-      {name:"postgrass"},
-      
-      
-      {name:"Redux Toolkit"},
-      
-      
-    
-      
+
+      { name: "react" },
+      { name: "node js" },
+      { name: "postgrass" },
+
+      { name: "Redux Toolkit" },
     ],
-    image: "/assets/work/book-rental.png",
+    image: "/assets/work/book-rent.png",
     live: "https://book-rent-x75w.vercel.app/",
     github: "https://github.com/AndargWorku/book-rent",
   },
@@ -435,7 +352,12 @@ const Work = () => {
                     <div className="absolute top-0 bottom-0 w-full h-full bg-black/10 z-10"></div>
                     {/* Image */}
                     <div className="relative w-full h-full  ">
-                      <Image src={project.image} fill className="object-cover " alt="" />
+                      <Image
+                        src={project.image}
+                        fill
+                        className="object-cover "
+                        alt=""
+                      />
                     </div>
                   </div>
                 </SwiperSlide>
@@ -454,7 +376,6 @@ const Work = () => {
 
 export default Work;
 
-
 // "use client";
 // import React, { useState } from 'react'
 // import {motion} from "framer-motion"
@@ -466,7 +387,6 @@ export default Work;
 // import Link from 'next/link'
 // import Image from 'next/image'
 // import WorkSliderBtns from '@/components/WorkSliderBtns'
-
 
 // const projects=[
 //   {
@@ -522,7 +442,7 @@ export default Work;
 //   <motion.section
 //   initial={{opacity:0}}
 //   animate={{opacity:1,
-//    transition:{delay:2.4, duration:0.4, ease:"easeIn"} 
+//    transition:{delay:2.4, duration:0.4, ease:"easeIn"}
 //   }}
 //   className=' min-h-[80vh flex flex-col justify-center py-12 xl:px-0'>
 //     <div className=' container mx-auto '>
@@ -552,7 +472,7 @@ export default Work;
 //                 <Tooltip>
 //                   <TooltipTrigger className=' w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group'>
 //                   <BsArrowUpRight className=' text-white text-3xl group-hover:text-accent'/>
-                     
+
 //                   </TooltipTrigger>
 //                   <TooltipContent>
 //                     <p>Live Projects</p>
@@ -568,7 +488,7 @@ export default Work;
 //                 <Tooltip>
 //                   <TooltipTrigger className=' w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group'>
 //                   <BsGithub className=' text-white text-3xl group-hover:text-accent'/>
-                     
+
 //                   </TooltipTrigger>
 //                   <TooltipContent>
 //                     <p>Github Reposetriy </p>
@@ -603,7 +523,7 @@ export default Work;
 
 //               </SwiperSlide>
 //             })}
-//             <WorkSliderBtns 
+//             <WorkSliderBtns
 //             containerStyles=" flex gap-2 absolute right-0 bottom-[calc(50%_-_22px)] xl:bottom-0 z-20 w-full justify-between xl:w-max xl:justify-none "
 //             btnStyles=" bg-accent hover-bg-accent-hover text-primary text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all"
 //             />
