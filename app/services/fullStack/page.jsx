@@ -33,7 +33,7 @@ const FullStack = () => {
         </p>
 
         <div className="w-screen max-w-full overflow-hidden">
-          <div className="relative w-full h-32 flex items-center">
+          <div className="relative w-full h-60 flex items-center">
             <motion.div
               className="flex space-x-16"
               initial={{ x: '100%' }}
