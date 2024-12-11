@@ -10,25 +10,25 @@ const services = [
     num: "01",
     title: "Web Development",
     description: "Build responsive and high-performing websites.",
-    href: "/services/web-development",
+    href: "/services/web",
   },
   {
     num: "02",
     title: "Mobile Development",
     description: "Create user-friendly mobile applications.",
-    href: "/services/mobile-development",
+    href: "/services/mobile",
   },
   {
     num: "03",
     title: "FullStack Development",
     description: "End-to-end development for scalable solutions.",
-    href: "/services/fullstack-development",
+    href: "/services/fullStack",
   },
   {
     num: "04",
     title: "Backend Development",
     description: "Efficient and secure server-side applications.",
-    href: "/services/backend-development",
+    href: "/services/backend",
   },
 ];
 
@@ -45,7 +45,8 @@ const Services = () => {
           className="grid grid-cols-1 md:grid-cols-2 gap-[60px]"
         >
           {services.map((service, index) => (
-            <div
+            <Link
+            href={service.href}
               key={index}
               className="flex-1 flex flex-col justify-center items-center gap-6 group shadow-2xl"
             >
@@ -65,7 +66,7 @@ const Services = () => {
               </h2>
               <p className="text-white/60 text-center">{service.description}</p>
               <div className=" border border-white/5 w-full"></div>
-            </div>
+            </Link>
           ))}
         </motion.div>
       </div>
