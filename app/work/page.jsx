@@ -37,49 +37,49 @@ const projects = [
     live: "https://gebeya-p9r3.vercel.app/",
     github: "https://github.com/AndargWorku/Gebeya",
   },
+  // {
+  //   num: "02",
+  //   category: "Full stack website",
+  //   title: " Lyu Gebeya Website",
+  //   description:
+  //     "that show is the real amazing moderen and complex e-commerce website that used to for markting of spically for gift things in online platform across world",
+  //   stack: [
+  //     { name: "Tailwind ss" },
+
+  //     { name: "react" },
+  //     { name: "node js" },
+  //     { name: "mongoDB" },
+
+  //     ,
+  //     { name: "Redux Toolkit" },
+  //     { name: "stripe" },
+  //   ],
+  //   image: "/assets/work/lyu.png",
+  //   live: "",
+  //   github: "https://github.com/AndargWorku/Lyu-gebeya",
+  // },
+  // {
+  //   num: "03",
+  //   category: "Full stack website",
+  //   title: " A-Chat  Website",
+  //   description:
+  //     "that show is the real amazing moderen and complex website that used to exhcange message by text or image or video ",
+  //   stack: [
+  //     { name: "Tailwind ss" },
+
+  //     { name: "react" },
+  //     { name: "node js" },
+  //     { name: "mongoDB" },
+
+  //     { name: "Redux Toolkit" },
+  //     { name: "sockt.io" },
+  //   ],
+  //   image: "/assets/work/chat.png",
+  //   live: "",
+  //   github: "https://github.com/AndargWorku/A-chat",
+  // },
   {
     num: "02",
-    category: "Full stack website",
-    title: " Lyu Gebeya Website",
-    description:
-      "that show is the real amazing moderen and complex e-commerce website that used to for markting of spically for gift things in online platform across world",
-    stack: [
-      { name: "Tailwind ss" },
-
-      { name: "react" },
-      { name: "node js" },
-      { name: "mongoDB" },
-
-      ,
-      { name: "Redux Toolkit" },
-      { name: "stripe" },
-    ],
-    image: "/assets/work/lyu.png",
-    live: "",
-    github: "https://github.com/AndargWorku/Lyu-gebeya",
-  },
-  {
-    num: "03",
-    category: "Full stack website",
-    title: " A-Chat  Website",
-    description:
-      "that show is the real amazing moderen and complex website that used to exhcange message by text or image or video ",
-    stack: [
-      { name: "Tailwind ss" },
-
-      { name: "react" },
-      { name: "node js" },
-      { name: "mongoDB" },
-
-      { name: "Redux Toolkit" },
-      { name: "sockt.io" },
-    ],
-    image: "/assets/work/chat.png",
-    live: "",
-    github: "https://github.com/AndargWorku/A-chat",
-  },
-  {
-    num: "04",
     category: "Frontend website",
     title: " Furniture Website",
     description: "that shows the sample of furniture products",
@@ -89,7 +89,7 @@ const projects = [
     github: "https://github.com/AndargWorku/furncomm",
   },
   {
-    num: "05",
+    num: "03",
     category: "Frontend website",
     title: " Car Rental Dashboard Website",
     description: "that show the sample dashboard of car rental website",
@@ -107,7 +107,7 @@ const projects = [
     github: "https://github.com/AndargWorku/car-rent-dashboard",
   },
   {
-    num: "06",
+    num: "04",
     category: "Frontend website",
     title: " Car Rental Website",
     description:
@@ -126,7 +126,7 @@ const projects = [
     github: "https://github.com/AndargWorku/cars",
   },
   {
-    num: "07",
+    num: "05",
     category: "Frontend website",
     title: " Resturant Website",
     description: "that show  amazing  UI that display different type of foods ",
@@ -136,7 +136,7 @@ const projects = [
     github: "https://github.com/AndargWorku/resturant-food",
   },
   {
-    num: "08",
+    num: "06",
     category: "Frontend website",
     title: " Nike shoes Website",
     description: "that show the different model of nike shoes ",
@@ -153,7 +153,7 @@ const projects = [
   },
   
   {
-    num: "09",
+    num: "07",
     category: "frontend website",
     title: "Learing managment system",
     description: "",
@@ -163,7 +163,7 @@ const projects = [
     github: "https://github.com/AndargWorku/online",
   },
   {
-    num: "10",
+    num: "8",
     category: "frontend website",
     title: " Universtiy of Ethiopia",
     description: " List and show the lsite sample Ethiopian Universtiy",
@@ -178,7 +178,7 @@ const projects = [
     github: "https://github.com/AndargWorku/campus",
   },
   {
-    num: "11",
+    num: "9",
     category: "Full stack website",
     title: " E-commerce Website",
     description:
@@ -196,7 +196,7 @@ const projects = [
   },
 
   {
-    num: "12",
+    num: "10",
     category: "Frontend website",
     title: " E-commerce dashboard Website",
     description: "that show the different amzing  modern UI",
@@ -206,7 +206,7 @@ const projects = [
     github: "https://github.com/AndargWorku/dshboard-by-chakra",
   },
   {
-    num: "13",
+    num: "11",
     category: "Frontend website",
     title: " Signup  Website",
     description: "that show the signup and login page in local storage",
@@ -225,7 +225,7 @@ const projects = [
   },
 
   {
-    num: "14",
+    num: "12",
     category: "Full stack website",
     title: " Book store  Website",
     description: "that used to book store that perfrom CRUD funcation ",
@@ -243,7 +243,7 @@ const projects = [
     github: "https://github.com/AndargWorku/Book-store",
   },
   {
-    num: "15",
+    num: "13",
     category: "Full stack website",
     title: " Book Rent  Website",
     description: "that used to book rent in online paltform  ",
