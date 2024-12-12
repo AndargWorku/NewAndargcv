@@ -75,7 +75,7 @@ const about = {
 };
 const experience = {
   icon: "/",
-  title: " My expriance",
+  title: " My experience",
   description:
     "I have extensive experience as a frontend, backend, and full-stack developer. Let's see",
   items: [

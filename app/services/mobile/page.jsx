@@ -40,7 +40,7 @@ const Mobile = () => {
               className="flex space-x-16"
               initial={{ x: "100%" }}
               animate={{ x: "-100%" }}
-              transition={{ duration: 15, repeat: Infinity, ease: "linear" }}
+              transition={{delay:1, duration: 25, repeat: Infinity, ease: "linear" }}
             >
               {backendTechnologies.map((tech, index) => (
                 <div
