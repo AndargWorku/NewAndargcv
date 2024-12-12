@@ -27,7 +27,7 @@ const Mobile = () => {
     <div className=" bg-gray-900 flex flex-col items-center justify-center">
       <div>
         <h4 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center text-accent  mt-6">
-          Mobile Developer Skills
+          Mobile Development Skills
         </h4>
         <p className=" p-10">
           I have experience as a mobile systems developer, specializing in the

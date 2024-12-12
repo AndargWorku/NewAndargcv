@@ -23,7 +23,7 @@ const Web = () => {
     <div className=" bg-gray-900 flex flex-col items-center justify-center ">
       <div>
         <h4 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center text-accent mt-10">
-          Frontend Developer Skills
+          Frontend Development Skills
         </h4>
         <p className="p-10">
           I have experience as a frontend systems developer, specializing in the following technologies:
