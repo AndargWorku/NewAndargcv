@@ -7,12 +7,12 @@ import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 const Footer = () => {
   return (
     <>
-      <div className="border border-gray-600 " />
+      <div className="border border-gray-600 mt-7 " />
       <footer className="bg-primary justify-around text-white px-4 py-2 flex flex-col md:flex-row md:items-center md:justify-between space-y-4 md:space-y-0">
-        <p className="text-sm text-center md:text-left">
+        <p className="text-sm text-center md:text-left md:px-10">
           &copy; {new Date().getFullYear()} Andarg Worku. All rights reserved.
         </p>
-        <div className="flex flex-wrap justify-center md:justify-end space-x-4 px-8">
+        <div className="flex flex-wrap justify-center md:justify-end space-x-4 md:px-10">
   <Link
     href="https://www.linkedin.com/in/andarg-worku-bb957823b/"
     target="_blank"
